@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.4.0"
+  version: "1.8.0"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/agent-framework-openai/agent_framework_openai-${{ version }}.tar.gz
-  sha256: e9fa6be2307988d2034a25c8b4eb8782c13f714bde160ed583c433deba7a212b
+  sha256: 4397aa6f2ba4b630e8190fb3293ffdee0b1a08164b2cf36385a3d7afbf5f96ab
 
 build:
   noarch: python
